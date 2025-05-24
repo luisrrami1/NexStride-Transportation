@@ -1,0 +1,136 @@
+*{
+    margin:0px;
+    padding:0px; 
+    box-sizing:border-box; 
+    font-family:'DM Sans'; 
+    }
+body{
+    width:100%; 
+    height:100vh; 
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("future_background.jpg"); 
+    background-size:cover; 
+    background-position:center; 
+    }
+nav{
+    width:100%; 
+    height:75px; 
+    line-height:75px; 
+    padding:0 px 100px; 
+    position:fixed; 
+    background-image:linear-gradient(#033747,#012733);
+    }
+.logo{
+    width:50px;
+    float:left;  
+    margin-left:10px; 
+    margin-top:5px; 
+    }
+nav ul{
+    float:right; 
+    }
+nav li{
+    display:inline-block; 
+    list-style:none; 
+    }
+nav li a{
+    font-size:18px;
+    padding:0px 30px;
+    color:white; 
+    text-decoration:none; 
+    }
+nav li a:hover{
+    color:#ff8c69; 
+    transition: all 0.4s ease 0s; 
+    }
+.row{
+    display:flex; 
+    height:88%; 
+    align-items:center; 
+    }
+.col{
+    flex-basis:50%; 
+    }
+h1 {
+    color:white; 
+    font-size:45px; 
+    margin-left:35px;
+    margin-bottom:1px; 
+    }
+p{
+    color:white; 
+    font-size:14px; 
+    line-height:15px; 
+    margin-left:35px;
+    margin-bottom:-65px;
+    }
+.card{
+    width:200px; 
+    height:230px; 
+    display:inline-block; 
+    border-radius:10px; 
+    padding:15px 25px; 
+    box-sizing:border-box; 
+    cursor:pointer; 
+    margin:100px 20px -60px 20px;  
+    background-position:center; 
+    background-size:cover;
+    transition:transform 0.5s; 
+    }
+.card1{
+    background-image:url("pic1.jpg");
+    }
+.card2{
+    background-image:url("pic2.jpg"); 
+    }
+.card3{
+    background-image:url("pic3.jpg"); 
+    }
+.card4{
+    background-image:url("pic4.jpg"); 
+    }
+.card:hover{
+    transform:translateY(-10px); 
+    }
+h5{
+    color:white; 
+    text-shadow:0 0 5px #999; 
+    text-align:center; 
+    }
+.card2 h5{
+    font-size:13px;
+    }
+.link_air{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left:30px;
+    margin-top:80px; 
+    opacity:0; 
+    }
+.link_land{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left:28px;
+    margin-top:-195px; 
+    font-size:17px;
+    opacity:0; 
+    }
+.link_maritime{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left:268px;
+    margin-top:-195px; 
+    font-size:17px;
+    opacity:0; 
+    }
+.link_space{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left:268px;
+    margin-top:68px; 
+    font-size:18px;
+    opacity:0; 
+    }

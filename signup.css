@@ -1,0 +1,119 @@
+*{
+    margin:0px;
+    padding:0px; 
+    box-sizing:border-box; 
+    font-family:'DM Sans'; 
+    }
+body{
+    background-color:#24252A;
+    margin:0;
+    width:100%; 
+    height:100vh; 
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("future_background.jpg"); 
+    background-size:cover; 
+    background-position:center; 
+    }
+
+.logo{
+    width:50px;
+    float:left;  
+    margin-left:15px; 
+    margin-top:6px; 
+    }
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+
+.topnav #myLinks {
+  display: none;
+}
+
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 21px;
+  display: block;
+}
+
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height:63px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  color: white;
+  background-image:linear-gradient(#033747,#012733);
+  width:100%; 
+  height:63px; 
+  line-height:75px; 
+  padding:0 px 100px; 
+}
+
+.back-button-container{
+    position:absolute;
+    top:0;
+    left:0;
+    margin-left:1080px; 
+    margin-top:3px;
+    }
+.back-button{
+    color:white;
+    text-decoration:none;
+    padding:14px 16px; 
+    font-size:21px;
+    background-color:transparent; 
+    }
+.back-button:hover{
+    background-color:#ddd; 
+    color:black; 
+    }
+.signup-container{
+    background-color:#fff;
+    border-radius:10px; 
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    padding:20px; 
+    width:300px; 
+    text-align:center; 
+    margin-left:530px;
+    margin-top:80px;
+}
+h2{
+    color:#333;
+    }
+label {
+    display:block; 
+    margin-top:15px; 
+    }
+input{
+    width:100%; 
+    padding:10px; 
+    margin-top:5px;
+    margin-bottom:15px;
+    box-sizing:border-box; 
+    }
+button{
+    background-color:#3498db;
+    color:#fff;
+    border:none; 
+    padding:10px 15px; 
+    border-radius:5px; 
+    cursor:pointer;
+    }
+button:hover{
+    background-color:#2980b;
+    }

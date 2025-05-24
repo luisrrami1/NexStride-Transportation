@@ -1,0 +1,92 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>AquaFutura | NexStride Transportation</title>
+<script>
+    function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>  
+    
+    <link rel="stylesheet" href="maritimetransportation.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&amp;family=Oswald:wght@500&amp;family=Roboto:wght@500&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>   
+<div class="topnav">
+    <img src="logo.png" class="logo">
+  <a href="#home" class="active"></a>
+  
+  <div id="myLinks">
+    <a href="homepage.html">HOME</a>
+    <a href="signup.html">REGISTRATION</a>
+    <a href="aboutus.html">ABOUT US</a>
+  </div>
+
+    <div class="next-button-container">
+    <a href="airtransportation.html" class="next-button">Next&raquo;</a>
+    </div>
+
+
+    <div class="back-button-container">
+    <a href="landtransportation.html" class="back-button">&laquo;Back</a>
+    </div>
+
+    
+    
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+  
+    <header>
+        <h2>AquaFutura</h2>
+    </header>
+
+    <section>
+        <div class="main-content">
+<div class="form-container">
+            <form>
+
+                <label for="departure">Departure Port:</label>
+                <input type="text" id="departure" name="departure" required>
+
+                <label for="destination">Destination Port:</label>
+                <input type="text" id="destination" name="destination" required>
+
+                <label for="departure-date">Departure Date:</label>
+                <input type="date" id="departure-date" name="departure-date"required> 
+
+                <label for="passengers">Number of Passengers:</label>
+                <input type="number" id="passengers" name="passengers" required>
+
+                <button type="submit">Book Now</button>
+    
+</form>
+    </div>
+            
+            </div>
+
+<div class="image-section"> 
+
+    <img src="waterboat.jpg" alt="boat image" class="water_boat">
+    
+
+</div>
+        
+    </section>
+
+    <footer>
+        <p>Dive into the extraordinary world of AquaFutura, cruise through the open seas in sleek, sustainable style, as AquaFutura takes you on an unforgettable adventure that transcends the boundaries of conventional maritime travel! Our fleet of vessels is designed to redefine your travel experience. Welcome aboard a new era of nautical excellence, where every wave becomes a pathway to the future.</p>
+    </footer>
+ 
+</body>
+
+</html>

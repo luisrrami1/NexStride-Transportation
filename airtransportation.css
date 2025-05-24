@@ -1,0 +1,156 @@
+*{
+    margin:0px;
+    padding:0px; 
+    box-sizing:border-box; 
+    font-family:'DM Sans'; 
+    }
+body{
+    background-color:#24252A;
+    }
+.container{
+    display:flex; 
+    height:80vh;  
+    }
+.image-container{
+    flex:1; 
+    overflow:hidden; 
+    position:relative; 
+    }
+.image-container img{
+    width:100%; 
+    height:100%; 
+    object-fit:cover;  
+    }
+
+.text-container{
+    flex:1; 
+    padding:20px; 
+    boxing-sizing:border-box; 
+    background-color:#f0f0f0; 
+    }
+h2{
+    color:#333; 
+    }
+p{
+    color:#555; 
+    margin-bottom:15px;
+    }
+.logo{
+    width:50px;
+    float:left;  
+    margin-left:15px; 
+    margin-top:6px; 
+    }
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+
+.topnav #myLinks {
+  display: none;
+}
+
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 21px;
+  display: block;
+}
+
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height:63px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  color: white;
+  background-image:linear-gradient(#033747,#012733);
+  width:100%; 
+  height:63px; 
+  line-height:75px; 
+  padding:0 px 100px; 
+}
+.form-container{
+    max-width:600px; 
+    margin:50px auto; 
+    padding:20px; 
+    background-color:#1a1a1a; 
+    border-radius:8px; 
+    box-shadow:0 0 10px rgba(0,0,0,0.1); 
+    }
+label {
+    display:block; 
+    margin-bottom:8px;
+    color:white; 
+    }
+input,textarea{
+    width:100%; 
+    padding:10px; 
+    box-sizing:border-box; 
+    border:1px solid #ccc; 
+    border-radius:4px; 
+    margin-top:4px; 
+    margin-bottom:10px; 
+    }
+button{
+    background-color:#0088a9; 
+    color:#fff; 
+    padding:10px 20px; 
+    border:none; 
+    border-radius:4px; 
+    cursor:pointer; 
+    font-size:16px;
+    }
+button:hover {
+    background-color:#007080; 
+    }
+.next-button-container{
+    position:absolute;
+    top:0;
+    left:0;
+    margin-left:1200px; 
+    margin-top:3px;
+    }
+.next-button{
+    color:white;
+    text-decoration:none;
+    padding:14px 16px; 
+    font-size:21px;
+    background-color:transparent; 
+    }
+.next-button:hover{
+    background-color:#ddd; 
+    color:black; 
+    }
+.back-button-container{
+    position:absolute;
+    top:0;
+    left:0;
+    margin-left:1100px; 
+    margin-top:3px;
+    }
+.back-button{
+    color:white;
+    text-decoration:none;
+    padding:14px 16px; 
+    font-size:21px;
+    background-color:transparent; 
+    }
+.back-button:hover{
+    background-color:#ddd; 
+    color:black; 
+    }
